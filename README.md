@@ -2,6 +2,7 @@
 <img width="1917" height="862" alt="screenshot web" src="https://github.com/user-attachments/assets/2f00b21e-94f2-4bbd-b7bc-62bce0f2493a" />
 demo web: https://github.com/user-attachments/assets/a91299b0-4b1c-40bc-bc1f-7a7b2110f43e
 
+
 Aplikasi web untuk memvisualisasikan peta wilayah administrasi Indonesia secara interaktif. Proyek ini dibangun menggunakan Next.js dan Leaflet untuk merender peta serta PostgreSQL (PostGIS) sebagai database spasial.
 
 ## Fitur Utama
