@@ -15,6 +15,11 @@ Aplikasi web untuk memvisualisasikan peta wilayah administrasi Indonesia secara 
 - **Backend & Database:** Node.js, [PostgreSQL](https://www.postgresql.org/) dengan ekstensi [PostGIS](https://postgis.net/), modul `pg`
 - **Lainnya:** ESLint, Dotenv
 
+## Sumber Data
+
+Data spasial (*GeoJSON*) batas wilayah administrasi Indonesia yang digunakan dan diolah dalam proyek ini bersumber dari repositori terbuka:
+- [bachtiarpanjaitan/geojson-id](https://github.com/bachtiarpanjaitan/geojson-id)
+
 ## Prasyarat
 
 Pastikan Anda telah menginstal dan mengkonfigurasi:
@@ -57,3 +62,9 @@ Proyek ini telah melalui tahap optimasi dan perbaikan, di antaranya:
   - Mempertebal dan memberi bayangan hitam (*shadow*) pada tulisan area wilayah di peta agar tetap terbaca walau latar belakang peta berwarna cerah.
   - Menambahkan kembali *Zoom Control* (tombol `+` dan `-`) pada pojok kanan bawah peta.
 - **Resolusi Bug:** Menuntaskan peringatan *Hydration Mismatch Error* pada Next.js akibat *extension* peramban pihak ketiga (seperti Grammarly).
+
+
+<img width="1917" height="862" alt="screenshot web" src="https://github.com/user-attachments/assets/2f00b21e-94f2-4bbd-b7bc-62bce0f2493a" />
+https://github.com/user-attachments/assets/a91299b0-4b1c-40bc-bc1f-7a7b2110f43e
+
+
